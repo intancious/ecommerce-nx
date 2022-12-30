@@ -9,26 +9,26 @@
           </div>
       </div>
       <div class="row">
-          
+
           <div class="col-md-3 mt-1 mb-4" v-for="product in category.products" :key="product.id">
           <div class="card h-100 border-0 rounded shadow-sm">
             <div class="card-body">
-              <div class="card-img-actions"> 
-                <img :src="product.image" class="card-img img-fluid"> 
+              <div class="card-img-actions">
+                <img :src="product.image" class="card-img img-fluid">
                 </div>
             </div>
             <div class="card-body bg-light-custom text-center rounded-bottom">
               <div class="mb-2">
-                <h6 class="font-weight-semibold mb-2"> 
-                  <nuxt-link :to="{name: 'products-slug', params: {slug: product.slug}}" class="text-default mb-2" data-abc="true">{{ product.title }}</nuxt-link> 
-                </h6> 
+                <h6 class="font-weight-semibold mb-2">
+                  <nuxt-link :to="{name: 'products-slug', params: {slug: product.slug}}" class="text-default mb-2" data-abc="true">{{ product.title }}</nuxt-link>
+                </h6>
                 <nuxt-link :to="{name: 'categories-slug', params: {slug: product.category.slug}}" class="text-muted" data-abc="true">{{ product.category.name }}</nuxt-link>
               </div>
               <h6 class="mb-0 font-weight-semibold"><s class="text-red">Rp. {{ formatPrice(product.price) }}</s> / <strong>{{ product.discount }} %</strong></h6>
               <h5 class="mb-0 font-weight-semibold mt-3 text-success">Rp. {{ formatPrice(calculateDiscount(product)) }}</h5>
               <hr>
                 <client-only>
-                  <vue-star-rating :rating="parseFloat(product.reviews_avg_rating)" :increment="0.5" :star-size="20" :read-only="true" :show-rating="false" :inline="true"></vue-star-rating> 
+                  <vue-star-rating :rating="parseFloat(product.reviews_avg_rating)" :increment="0.5" :star-size="20" :read-only="true" :show-rating="false" :inline="true"></vue-star-rating>
                   (<strong>{{ product.reviews_count }}</strong> ulasan)
                 </client-only>
             </div>
@@ -46,16 +46,16 @@ export default {
     //meta
     head() {
       return {
-        title: `Category : ${this.category.name}  - MI STORE - Distributor Xiaomi Indonesia Resmi`,
+        title: `Category : ${this.category.name}  - Posstore - Domain resmi dan aman`,
         meta: [{
             hid: 'og:title',
             name: 'og:title',
-            content: `Category : ${this.category.name}  - MI STORE - Distributor Xiaomi Indonesia Resmi`
+            content: `Category : ${this.category.name}  - Posstore - Domain resmi dan aman`
           },
           {
             hid: 'og:site_name',
             name: 'og:site_name',
-            content: `Category : ${this.category.name}  - MI STORE - Distributor Xiaomi Indonesia Resmi`
+            content: `Category : ${this.category.name}  - Posstore - Domain resmi dan aman`
           },
           {
             hid: 'og:image',
@@ -65,7 +65,7 @@ export default {
           {
             hid: 'description',
             name: 'description',
-            content: `Category : ${this.category.name}  - MI STORE - Distributor Xiaomi Indonesia Resmi`
+            content: `Category : ${this.category.name}  - Posstore - Domain resmi dan aman`
           },
         ]
       }

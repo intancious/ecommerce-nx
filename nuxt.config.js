@@ -3,7 +3,7 @@ export default {
   // Target Deployment
   target: 'server',
 
-  //rendering mode SSR	
+  //rendering mode SSR
   ssr: true,
 
   loading: {
@@ -45,8 +45,8 @@ export default {
       },
     ],
     script: [
-      { src: '/js/coreui.bundle.min.js' }, 
-      { src: 'https://app.sandbox.midtrans.com/snap/snap.js', 'data-client-key': 'SB-Mid-client-bWcHM3-QSyGV2hhw' }, 
+      { src: '/js/coreui.bundle.min.js' },
+      { src: 'https://app.sandbox.midtrans.com/snap/snap.js', 'data-client-key': 'SB-Mid-client-_X0WOb4fzNQSYUC0' },
     ]
   },
 
@@ -84,7 +84,7 @@ export default {
 
   auth: {
     strategies: {
-  
+
         //strategy "admin"
         admin: {
           scheme: 'local',
@@ -114,7 +114,7 @@ export default {
             }
           },
         },
-  
+
         //strategy "customer"
         customer: {
           scheme: 'local',
@@ -144,13 +144,13 @@ export default {
             }
           },
         },
-  
+
     },
   },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
-    baseURL: 'https://ecommerce.appdev.my.id'
+    baseURL: 'http://localhost:8000'
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build

@@ -220,16 +220,16 @@
     //meta
     head() {
       return {
-        title: 'Cart - MI STORE - Distributor Xiaomi Indonesia Resmi',
+        title: 'Cart - Posstore - Domain resmi dan aman',
         meta: [{
             hid: 'og:title',
             name: 'og:title',
-            content: 'Cart - MI STORE - Distributor Xiaomi Indonesia Resmi'
+            content: 'Cart - Posstore - Domain resmi dan aman'
           },
           {
             hid: 'og:site_name',
             name: 'og:site_name',
-            content: 'Cart - MI STORE - Distributor Xiaomi Indonesia Resmi'
+            content: 'Cart - Posstore - Domain resmi dan aman'
           },
           {
             hid: 'og:image',
@@ -333,8 +333,8 @@
 
     //method
     methods: {
-        
-      //method "removeCart"  
+
+      //method "removeCart"
       async removeCart(cartId) {
 
         await this.$swal.fire({
@@ -355,7 +355,7 @@
                })
 
               .then(async () => {
-                        
+
                   //dispatch action "getCartPrice"
                   await this.$store.dispatch('web/cart/getCartPrice')
 
@@ -411,7 +411,7 @@
       //method "getServiceCost"
       getServiceCost() {
 
-        //split value dengan menghapus string -> | 
+        //split value dengan menghapus string -> |
         let shipping = this.courier.courier_service_cost.split("|")
 
         //set state cost dan service

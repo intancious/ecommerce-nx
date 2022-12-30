@@ -8,7 +8,7 @@
               <!-- Solid divider -->
               <hr class="solid">
           </div>
-      </div>  
+      </div>
 
       <div class="row" v-if="products.data.length > 0">
         <div class="col-md-3 mt-1 mb-4" v-for="product in products.data" :key="product.id">
@@ -33,7 +33,7 @@
               </h5>
               <hr>
                 <client-only>
-                  <vue-star-rating :rating="parseFloat(product.reviews_avg_rating)" :increment="0.5" :star-size="20" :read-only="true" :show-rating="false" :inline="true"></vue-star-rating> 
+                  <vue-star-rating :rating="parseFloat(product.reviews_avg_rating)" :increment="0.5" :star-size="20" :read-only="true" :show-rating="false" :inline="true"></vue-star-rating>
                   (<strong>{{ product.reviews_count }}</strong> ulasan)
                 </client-only>
             </div>
@@ -65,7 +65,7 @@
     //meta
     head() {
       return {
-        title: `Pencarian untuk : ${this.$route.query.q} - MI STORE - Distributor Xiaomi Indonesia Resmi`,
+        title: `Pencarian untuk : ${this.$route.query.q} - Posstore - Domain resmi dan aman`,
       }
     },
 

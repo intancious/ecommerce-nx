@@ -93,16 +93,16 @@
     //meta
     head() {
       return {
-        title: `${this.product.title} - MI STORE - Distributor Xiaomi Indonesia Resmi`,
+        title: `${this.product.title} - Posstore - Domain resmi dan aman`,
         meta: [{
             hid: 'og:title',
             name: 'og:title',
-            content: `${this.product.title} - MI STORE - Distributor Xiaomi Indonesia Resmi`,
+            content: `${this.product.title} - Posstore - Domain resmi dan aman`,
           },
           {
             hid: 'og:site_name',
             name: 'og:site_name',
-            content: `${this.product.title} - MI STORE - Distributor Xiaomi Indonesia Resmi`,
+            content: `${this.product.title} - Posstore - Domain resmi dan aman`,
           },
           {
             hid: 'og:image',

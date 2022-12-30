@@ -24,16 +24,16 @@ export default {
     //meta
     head() {
       return {
-        title: 'Semua Kategori - MI STORE - Distributor Xiaomi Indonesia Resmi',
+        title: 'Semua Kategori - Posstore - Domain resmi dan aman',
         meta: [{
             hid: 'og:title',
             name: 'og:title',
-            content: 'Semua Kategori - MI STORE - Distributor Xiaomi Indonesia Resmi'
+            content: 'Semua Kategori - Posstore - Domain resmi dan aman'
           },
           {
             hid: 'og:site_name',
             name: 'og:site_name',
-            content: 'Semua Kategori - MI STORE - Distributor Xiaomi Indonesia Resmi'
+            content: 'Semua Kategori - Posstore - Domain resmi dan aman'
           },
           {
             hid: 'og:image',

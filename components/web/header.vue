@@ -3,18 +3,18 @@
     <section class="header-main border-bottom">
       <div class="container-fluid">
         <div class="row align-items-center">
-          <div class="col-lg-3 col-sm-4 col-md-4 col-5"> 
+          <div class="col-lg-3 col-sm-4 col-md-4 col-5">
               <nuxt-link to="/" class="brand-wrap" data-abc="true">
                 <img src="/images/xiaomi.png" width="35" class="bg-light p-2 rounded">
-                <span class="logo">MI STORE</span>
+                <span class="logo">Posstore</span>
               </nuxt-link>
           </div>
           <div class="col-lg-4 col-xl-5 col-sm-8 col-md-4 d-none d-md-block">
             <div class="search-wrap">
-              <div class="input-group w-100"> 
+              <div class="input-group w-100">
                 <input type="text" class="form-control search-form" v-model="search" @keypress.enter="searchData" style="width:55%;" placeholder="mau belanja apa hari ini ?">
-                <div class="input-group-append"> 
-                  <button @click="searchData" class="btn btn-primary search-button"> <i class="fa fa-search"></i> </button> 
+                <div class="input-group-append">
+                  <button @click="searchData" class="btn btn-primary search-button"> <i class="fa fa-search"></i> </button>
                 </div>
               </div>
             </div>
@@ -30,13 +30,13 @@
     <nav class="navbar navbar-expand-md navbar-main border-bottom p-2">
       <div class="container-fluid">
         <div class="d-md-none my-2">
-          <div class="input-group"> 
+          <div class="input-group">
             <input type="search" name="search" class="form-control" v-model="search" @keypress.enter="searchData" placeholder="mau belanja apa hari ini ?">
-            <div class="input-group-append"> 
-              <button @click="searchData" class="btn btn-warning"> <i class="fa fa-search"></i></button> 
+            <div class="input-group-append">
+              <button @click="searchData" class="btn btn-warning"> <i class="fa fa-search"></i></button>
             </div>
           </div>
-        </div> 
+        </div>
         <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#dropdown6"
           aria-expanded="false"> <span class="navbar-toggler-icon"></span> </button>
         <div class="navbar-collapse collapse" id="dropdown6">
@@ -93,7 +93,7 @@
 
     //computed
     computed: {
-        
+
       //categories
       categories() {
         return this.$store.state.web.category.categories

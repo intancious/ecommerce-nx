@@ -2,7 +2,7 @@
   <div class="c-app">
     <div class="c-sidebar c-sidebar-dark c-sidebar-fixed c-sidebar-lg-show" id="sidebar">
       <div class="c-sidebar-brand d-lg-down-none">
-        <img src="/images/xiaomi.png" class="bg-light rounded shadow-sm p-2" width="35"> <span class="ml-2 font-weight-bold">MI STORE</span>
+        <img src="/images/xiaomi.png" class="bg-light rounded shadow-sm p-2" width="35"> <span class="ml-2 font-weight-bold">Posstore</span>
       </div>
 
       <!-- sidebar -->
@@ -11,7 +11,7 @@
 
     </div>
     <div class="c-wrapper c-fixed-components">
-      
+
       <!-- header -->
       <Header />
       <!-- end header -->
@@ -23,7 +23,7 @@
         <!-- end content -->
 
         <footer class="c-footer">
-          <div><strong>MI STORE</strong> &copy; 2021 - SantriKoding.com.</div>
+          <div><strong>Posstore</strong> &copy; 2022 - intan.</div>
           <div class="ml-auto">Template by&nbsp;<a href="https://coreui.io/">CoreUI</a></div>
         </footer>
       </div>

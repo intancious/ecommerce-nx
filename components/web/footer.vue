@@ -5,7 +5,7 @@
         <div class="col-md-5 mb-4">
           <h4 class="font-weight-bold">TENTANG</h4>
           <hr style="border-top: 3px solid rgb(226, 232, 240); border-radius: 0.5rem;">
-          <p> Mi Store Official Terpercaya di Indonesia. Jual Beli Aman &amp; Harga Termurah! Belanja
+          <p> Posstore Official Terpercaya di Indonesia. Jual Beli Aman &amp; Harga Termurah! Belanja
             sekarang. </p>
         </div>
         <div class="col-md-3 mb-4">
@@ -60,7 +60,7 @@
       </div>
       <div class="row text-center mt-3 pb-3">
         <div class="col-md-12">
-          <hr> © <strong>MI STORE</strong> 2021 • Hak Cipta Dilindungi </div>
+          <hr> © <strong>Posstore</strong> 2022 • Hak Cipta Dilindungi </div>
       </div>
     </div>
   </footer>
