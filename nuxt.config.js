@@ -11,6 +11,16 @@ export default {
     height: '5px'	// <-- height
   },
 
+  windicss: {
+    scan: {
+      exclude: [
+        'node_modules',
+        'node_modules_dev',
+        'node_modules_prod'
+      ]
+    }
+  },
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'nuxt-ecommerce',
@@ -157,4 +167,5 @@ export default {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
   }
+
 }
