@@ -5,6 +5,5 @@
       "src": "nuxt.config.js",
       "use": "@nuxtjs/vercel-builder"
     }
-  ],
-  "rewrites": [{ "source": "/(.*)", "destination": "/" }]
+  ]
 }
